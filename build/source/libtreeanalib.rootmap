@@ -1,0 +1,31 @@
+{ decls }
+namespace art {  }
+
+[ libtreeanalib.so ]
+# List of selected classes
+class art::ICharge
+class art::IPosition
+class art::ITiming
+class art::TArtemisObject
+class art::TCatPulseShape
+class art::TDataObject
+class art::TEventHeader
+class art::TGateArray
+class art::TGateInfo
+class art::TGateObject
+class art::TRawDataFadc
+class art::TRawDataObject
+class art::TRunInfo
+header ICharge.h
+header IPosition.h
+header ITiming.h
+header TArtemisObject.h
+header TCatPulseShape.h
+header TDataObject.h
+header TEventHeader.h
+header TGateArray.h
+header TGateInfo.h
+header TGateObject.h
+header TRawDataFadc.h
+header TRawDataObject.h
+header TRunInfo.h

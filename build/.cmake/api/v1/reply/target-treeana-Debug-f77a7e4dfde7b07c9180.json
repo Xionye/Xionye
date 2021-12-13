@@ -1,0 +1,338 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "source/treeana"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"include",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"source/CMakeLists.txt",
+			"/home/daq/opt/root-6.25.01/cmake/ROOTUseFile.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -std=c++14 -pipe -fsigned-char -pthread -g  "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/daq/opt/root-6.25.01/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/daq/opt/artemis/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/daq/opt/artemis_src/share/src"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/daq/opt/artemis_src/share/src/gate"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "treeanalib::@411ffd8adc737496fe19"
+		}
+	],
+	"id" : "treeana::@411ffd8adc737496fe19",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++14 -pipe -fsigned-char -pthread -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-L/home/daq/opt/root-6.25.01/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/daq/opt/root-6.25.01/lib:/home/daq/analysis/treeanalysis/build/source",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libCore.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libImt.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libRIO.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libNet.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libHist.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libGraf.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libGraf3d.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libGpad.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libROOTDataFrame.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libTree.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libTreePlayer.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libRint.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libPostscript.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libMatrix.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libPhysics.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libMathCore.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libThread.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libMultiProc.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libProof.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "libtreeanalib.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libCore.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libImt.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libRIO.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libNet.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libHist.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libGraf.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libGraf3d.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libGpad.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libROOTDataFrame.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libTree.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libTreePlayer.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libRint.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libPostscript.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libMatrix.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libPhysics.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libMathCore.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libThread.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libMultiProc.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/daq/opt/root-6.25.01/lib/libProof.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "treeana",
+	"nameOnDisk" : "treeana",
+	"paths" : 
+	{
+		"build" : "source",
+		"source" : "source"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

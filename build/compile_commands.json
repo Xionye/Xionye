@@ -1,0 +1,77 @@
+[
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g   -o CMakeFiles/treeana.dir/main.cpp.o -c /home/daq/analysis/treeanalysis/source/main.cpp",
+  "file": "/home/daq/analysis/treeanalysis/source/main.cpp"
+},
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dtreeanalib_EXPORTS -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g -fPIC   -o CMakeFiles/treeanalib.dir/home/daq/opt/artemis_src/artemis/sources/loop/TRawDataObject.cc.o -c /home/daq/opt/artemis_src/artemis/sources/loop/TRawDataObject.cc",
+  "file": "/home/daq/opt/artemis_src/artemis/sources/loop/TRawDataObject.cc"
+},
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dtreeanalib_EXPORTS -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g -fPIC   -o CMakeFiles/treeanalib.dir/home/daq/opt/artemis_src/artemis/sources/loop/decoder/TRawDataFadc.cc.o -c /home/daq/opt/artemis_src/artemis/sources/loop/decoder/TRawDataFadc.cc",
+  "file": "/home/daq/opt/artemis_src/artemis/sources/loop/decoder/TRawDataFadc.cc"
+},
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dtreeanalib_EXPORTS -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g -fPIC   -o CMakeFiles/treeanalib.dir/home/daq/opt/artemis_src/artemis/sources/loop/TEventHeader.cc.o -c /home/daq/opt/artemis_src/artemis/sources/loop/TEventHeader.cc",
+  "file": "/home/daq/opt/artemis_src/artemis/sources/loop/TEventHeader.cc"
+},
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dtreeanalib_EXPORTS -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g -fPIC   -o CMakeFiles/treeanalib.dir/home/daq/opt/artemis_src/artemis/sources/core/TRunInfo.cc.o -c /home/daq/opt/artemis_src/artemis/sources/core/TRunInfo.cc",
+  "file": "/home/daq/opt/artemis_src/artemis/sources/core/TRunInfo.cc"
+},
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dtreeanalib_EXPORTS -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g -fPIC   -o CMakeFiles/treeanalib.dir/home/daq/opt/artemis_src/artemis/sources/core/TArtemisObject.cc.o -c /home/daq/opt/artemis_src/artemis/sources/core/TArtemisObject.cc",
+  "file": "/home/daq/opt/artemis_src/artemis/sources/core/TArtemisObject.cc"
+},
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dtreeanalib_EXPORTS -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g -fPIC   -o CMakeFiles/treeanalib.dir/home/daq/opt/artemis_src/artemis/sources/cont/TCatPulseShape.cc.o -c /home/daq/opt/artemis_src/artemis/sources/cont/TCatPulseShape.cc",
+  "file": "/home/daq/opt/artemis_src/artemis/sources/cont/TCatPulseShape.cc"
+},
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dtreeanalib_EXPORTS -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g -fPIC   -o CMakeFiles/treeanalib.dir/home/daq/opt/artemis_src/artemis/sources/cont/ICharge.cc.o -c /home/daq/opt/artemis_src/artemis/sources/cont/ICharge.cc",
+  "file": "/home/daq/opt/artemis_src/artemis/sources/cont/ICharge.cc"
+},
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dtreeanalib_EXPORTS -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g -fPIC   -o CMakeFiles/treeanalib.dir/home/daq/opt/artemis_src/artemis/sources/cont/IPosition.cc.o -c /home/daq/opt/artemis_src/artemis/sources/cont/IPosition.cc",
+  "file": "/home/daq/opt/artemis_src/artemis/sources/cont/IPosition.cc"
+},
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dtreeanalib_EXPORTS -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g -fPIC   -o CMakeFiles/treeanalib.dir/home/daq/opt/artemis_src/artemis/sources/cont/ITiming.cc.o -c /home/daq/opt/artemis_src/artemis/sources/cont/ITiming.cc",
+  "file": "/home/daq/opt/artemis_src/artemis/sources/cont/ITiming.cc"
+},
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dtreeanalib_EXPORTS -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g -fPIC   -o CMakeFiles/treeanalib.dir/home/daq/opt/artemis_src/artemis/sources/core/TDataObject.cc.o -c /home/daq/opt/artemis_src/artemis/sources/core/TDataObject.cc",
+  "file": "/home/daq/opt/artemis_src/artemis/sources/core/TDataObject.cc"
+},
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dtreeanalib_EXPORTS -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g -fPIC   -o CMakeFiles/treeanalib.dir/home/daq/opt/artemis_src/share/src/gate/TGateObject.cc.o -c /home/daq/opt/artemis_src/share/src/gate/TGateObject.cc",
+  "file": "/home/daq/opt/artemis_src/share/src/gate/TGateObject.cc"
+},
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dtreeanalib_EXPORTS -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g -fPIC   -o CMakeFiles/treeanalib.dir/home/daq/opt/artemis_src/share/src/gate/TGateArray.cc.o -c /home/daq/opt/artemis_src/share/src/gate/TGateArray.cc",
+  "file": "/home/daq/opt/artemis_src/share/src/gate/TGateArray.cc"
+},
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dtreeanalib_EXPORTS -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g -fPIC   -o CMakeFiles/treeanalib.dir/home/daq/opt/artemis_src/share/src/gate/TGateInfo.cc.o -c /home/daq/opt/artemis_src/share/src/gate/TGateInfo.cc",
+  "file": "/home/daq/opt/artemis_src/share/src/gate/TGateInfo.cc"
+},
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dtreeanalib_EXPORTS -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g -fPIC   -o CMakeFiles/treeanalib.dir/G__treeanalib.cxx.o -c /home/daq/analysis/treeanalysis/build/source/G__treeanalib.cxx",
+  "file": "/home/daq/analysis/treeanalysis/build/source/G__treeanalib.cxx"
+}
+]
