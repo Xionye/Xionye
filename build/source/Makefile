@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+source/CMakeFiles/treeana_cf4.dir/rule:
+	cd /home/daq/analysis/treeanalysis/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/treeana_cf4.dir/rule
+.PHONY : source/CMakeFiles/treeana_cf4.dir/rule
+
+# Convenience name for target.
+treeana_cf4: source/CMakeFiles/treeana_cf4.dir/rule
+
+.PHONY : treeana_cf4
+
+# fast build rule for target.
+treeana_cf4/fast:
+	cd /home/daq/analysis/treeanalysis/build && $(MAKE) -f source/CMakeFiles/treeana_cf4.dir/build.make source/CMakeFiles/treeana_cf4.dir/build
+.PHONY : treeana_cf4/fast
+
+# Convenience name for target.
 source/CMakeFiles/treeana.dir/rule:
 	cd /home/daq/analysis/treeanalysis/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/treeana.dir/rule
 .PHONY : source/CMakeFiles/treeana.dir/rule
@@ -560,6 +575,33 @@ main.cpp.s:
 	cd /home/daq/analysis/treeanalysis/build && $(MAKE) -f source/CMakeFiles/treeana.dir/build.make source/CMakeFiles/treeana.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+main_cf4.o: main_cf4.cpp.o
+
+.PHONY : main_cf4.o
+
+# target to build an object file
+main_cf4.cpp.o:
+	cd /home/daq/analysis/treeanalysis/build && $(MAKE) -f source/CMakeFiles/treeana_cf4.dir/build.make source/CMakeFiles/treeana_cf4.dir/main_cf4.cpp.o
+.PHONY : main_cf4.cpp.o
+
+main_cf4.i: main_cf4.cpp.i
+
+.PHONY : main_cf4.i
+
+# target to preprocess a source file
+main_cf4.cpp.i:
+	cd /home/daq/analysis/treeanalysis/build && $(MAKE) -f source/CMakeFiles/treeana_cf4.dir/build.make source/CMakeFiles/treeana_cf4.dir/main_cf4.cpp.i
+.PHONY : main_cf4.cpp.i
+
+main_cf4.s: main_cf4.cpp.s
+
+.PHONY : main_cf4.s
+
+# target to generate assembly for a file
+main_cf4.cpp.s:
+	cd /home/daq/analysis/treeanalysis/build && $(MAKE) -f source/CMakeFiles/treeana_cf4.dir/build.make source/CMakeFiles/treeana_cf4.dir/main_cf4.cpp.s
+.PHONY : main_cf4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -568,6 +610,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... treeana_cf4"
 	@echo "... treeana"
 	@echo "... treeanalib"
 	@echo "... G__treeanalib"
@@ -616,6 +659,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... main_cf4.o"
+	@echo "... main_cf4.i"
+	@echo "... main_cf4.s"
 .PHONY : help
 
 

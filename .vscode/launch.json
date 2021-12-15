@@ -22,6 +22,25 @@
                     "ignoreFailures": true
                 }
             ]
+        },
+        {
+            "name": "treeana_cf4 debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/source/treeana_cf4",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "/home/daq/analysis/treeanalysis",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
         }
     ]
 }

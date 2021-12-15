@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named treeana_cf4
+
+# Build rule for target.
+treeana_cf4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 treeana_cf4
+.PHONY : treeana_cf4
+
+# fast build rule for target.
+treeana_cf4/fast:
+	$(MAKE) -f source/CMakeFiles/treeana_cf4.dir/build.make source/CMakeFiles/treeana_cf4.dir/build
+.PHONY : treeana_cf4/fast
+
+#=============================================================================
 # Target rules for targets named treeana
 
 # Build rule for target.
@@ -157,6 +170,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... treeana_cf4"
 	@echo "... treeana"
 	@echo "... treeanalib"
 	@echo "... G__treeanalib"

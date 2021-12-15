@@ -71,6 +71,7 @@ clean: source/clean
 # Directory level rules for directory source
 
 # Recursive "all" directory target.
+source/all: source/CMakeFiles/treeana_cf4.dir/all
 source/all: source/CMakeFiles/treeana.dir/all
 source/all: source/CMakeFiles/treeanalib.dir/all
 
@@ -82,11 +83,39 @@ source/preinstall:
 .PHONY : source/preinstall
 
 # Recursive "clean" directory target.
+source/clean: source/CMakeFiles/treeana_cf4.dir/clean
 source/clean: source/CMakeFiles/treeana.dir/clean
 source/clean: source/CMakeFiles/treeanalib.dir/clean
 source/clean: source/CMakeFiles/G__treeanalib.dir/clean
 
 .PHONY : source/clean
+
+#=============================================================================
+# Target rules for target source/CMakeFiles/treeana_cf4.dir
+
+# All Build rule for target.
+source/CMakeFiles/treeana_cf4.dir/all: source/CMakeFiles/treeanalib.dir/all
+	$(MAKE) -f source/CMakeFiles/treeana_cf4.dir/build.make source/CMakeFiles/treeana_cf4.dir/depend
+	$(MAKE) -f source/CMakeFiles/treeana_cf4.dir/build.make source/CMakeFiles/treeana_cf4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daq/analysis/treeanalysis/build/CMakeFiles --progress-num=4,5 "Built target treeana_cf4"
+.PHONY : source/CMakeFiles/treeana_cf4.dir/all
+
+# Build rule for subdir invocation for target.
+source/CMakeFiles/treeana_cf4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daq/analysis/treeanalysis/build/CMakeFiles 18
+	$(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/treeana_cf4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daq/analysis/treeanalysis/build/CMakeFiles 0
+.PHONY : source/CMakeFiles/treeana_cf4.dir/rule
+
+# Convenience name for target.
+treeana_cf4: source/CMakeFiles/treeana_cf4.dir/rule
+
+.PHONY : treeana_cf4
+
+# clean rule for target.
+source/CMakeFiles/treeana_cf4.dir/clean:
+	$(MAKE) -f source/CMakeFiles/treeana_cf4.dir/build.make source/CMakeFiles/treeana_cf4.dir/clean
+.PHONY : source/CMakeFiles/treeana_cf4.dir/clean
 
 #=============================================================================
 # Target rules for target source/CMakeFiles/treeana.dir
@@ -122,7 +151,7 @@ source/CMakeFiles/treeana.dir/clean:
 source/CMakeFiles/treeanalib.dir/all:
 	$(MAKE) -f source/CMakeFiles/treeanalib.dir/build.make source/CMakeFiles/treeanalib.dir/depend
 	$(MAKE) -f source/CMakeFiles/treeanalib.dir/build.make source/CMakeFiles/treeanalib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daq/analysis/treeanalysis/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target treeanalib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daq/analysis/treeanalysis/build/CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target treeanalib"
 .PHONY : source/CMakeFiles/treeanalib.dir/all
 
 # Build rule for subdir invocation for target.

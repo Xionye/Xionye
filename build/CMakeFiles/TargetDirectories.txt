@@ -2,6 +2,7 @@
 /home/daq/analysis/treeanalysis/build/CMakeFiles/edit_cache.dir
 /home/daq/analysis/treeanalysis/build/source/CMakeFiles/rebuild_cache.dir
 /home/daq/analysis/treeanalysis/build/source/CMakeFiles/edit_cache.dir
+/home/daq/analysis/treeanalysis/build/source/CMakeFiles/treeana_cf4.dir
 /home/daq/analysis/treeanalysis/build/source/CMakeFiles/treeana.dir
 /home/daq/analysis/treeanalysis/build/source/CMakeFiles/treeanalib.dir
 /home/daq/analysis/treeanalysis/build/source/CMakeFiles/G__treeanalib.dir

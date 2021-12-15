@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/daq/analysis/treeanalysis/build/source",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g   -o CMakeFiles/treeana_cf4.dir/main_cf4.cpp.o -c /home/daq/analysis/treeanalysis/source/main_cf4.cpp",
+  "file": "/home/daq/analysis/treeanalysis/source/main_cf4.cpp"
+},
+{
+  "directory": "/home/daq/analysis/treeanalysis/build/source",
   "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/daq/opt/root-6.25.01/include -I/home/daq/opt/artemis/include -I/home/daq/opt/artemis_src/share/src -I/home/daq/opt/artemis_src/share/src/gate    -std=c++14 -pipe -fsigned-char -pthread -g   -o CMakeFiles/treeana.dir/main.cpp.o -c /home/daq/analysis/treeanalysis/source/main.cpp",
   "file": "/home/daq/analysis/treeanalysis/source/main.cpp"
 },

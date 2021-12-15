@@ -23,6 +23,12 @@ TF1.h
 /home/daq/analysis/treeanalysis/source/TF1.h
 TH1F.h
 /home/daq/analysis/treeanalysis/source/TH1F.h
+TH2F.h
+/home/daq/analysis/treeanalysis/source/TH2F.h
+TCanvas.h
+/home/daq/analysis/treeanalysis/source/TCanvas.h
+TText.h
+/home/daq/analysis/treeanalysis/source/TText.h
 
 /home/daq/opt/artemis/include/ICharge.h
 Rtypes.h
@@ -60,6 +66,8 @@ TMath.h
 TArtemisObject.h
 -
 
+/home/daq/opt/root-6.25.01/include/Buttons.h
+
 /home/daq/opt/root-6.25.01/include/Bytes.h
 RtypesCore.h
 /home/daq/opt/root-6.25.01/include/RtypesCore.h
@@ -81,6 +89,12 @@ RtypesCore.h
 /home/daq/opt/root-6.25.01/include/Foption.h
 ROOT/EExecutionPolicy.hxx
 /home/daq/opt/root-6.25.01/include/ROOT/EExecutionPolicy.hxx
+
+/home/daq/opt/root-6.25.01/include/GuiTypes.h
+Rtypes.h
+/home/daq/opt/root-6.25.01/include/Rtypes.h
+climits
+-
 
 /home/daq/opt/root-6.25.01/include/Math/ParamFunctor.h
 RtypesCore.h
@@ -252,6 +266,16 @@ TArray.h
 Rtypes.h
 /home/daq/opt/root-6.25.01/include/Rtypes.h
 
+/home/daq/opt/root-6.25.01/include/TAttBBox2D.h
+GuiTypes.h
+/home/daq/opt/root-6.25.01/include/GuiTypes.h
+Rtypes.h
+/home/daq/opt/root-6.25.01/include/Rtypes.h
+
+/home/daq/opt/root-6.25.01/include/TAttCanvas.h
+Rtypes.h
+/home/daq/opt/root-6.25.01/include/Rtypes.h
+
 /home/daq/opt/root-6.25.01/include/TAttFill.h
 Rtypes.h
 /home/daq/opt/root-6.25.01/include/Rtypes.h
@@ -261,6 +285,14 @@ Rtypes.h
 /home/daq/opt/root-6.25.01/include/Rtypes.h
 
 /home/daq/opt/root-6.25.01/include/TAttMarker.h
+Rtypes.h
+/home/daq/opt/root-6.25.01/include/Rtypes.h
+
+/home/daq/opt/root-6.25.01/include/TAttPad.h
+Rtypes.h
+/home/daq/opt/root-6.25.01/include/Rtypes.h
+
+/home/daq/opt/root-6.25.01/include/TAttText.h
 Rtypes.h
 /home/daq/opt/root-6.25.01/include/Rtypes.h
 
@@ -355,6 +387,12 @@ string
 -
 typeinfo
 -
+
+/home/daq/opt/root-6.25.01/include/TCanvas.h
+TPad.h
+/home/daq/opt/root-6.25.01/include/TPad.h
+TAttCanvas.h
+/home/daq/opt/root-6.25.01/include/TAttCanvas.h
 
 /home/daq/opt/root-6.25.01/include/TClass.h
 TDictionary.h
@@ -598,6 +636,18 @@ string
 TH1.h
 /home/daq/opt/root-6.25.01/include/TH1.h
 
+/home/daq/opt/root-6.25.01/include/TH2.h
+TH1.h
+/home/daq/opt/root-6.25.01/include/TH1.h
+TMatrixFBasefwd.h
+/home/daq/opt/root-6.25.01/include/TMatrixFBasefwd.h
+TMatrixDBasefwd.h
+/home/daq/opt/root-6.25.01/include/TMatrixDBasefwd.h
+
+/home/daq/opt/root-6.25.01/include/TH2F.h
+TH2.h
+/home/daq/opt/root-6.25.01/include/TH2.h
+
 /home/daq/opt/root-6.25.01/include/TInterpreter.h
 TDataType.h
 /home/daq/opt/root-6.25.01/include/TDataType.h
@@ -794,6 +844,28 @@ string
 iosfwd
 -
 
+/home/daq/opt/root-6.25.01/include/TPad.h
+TVirtualPad.h
+/home/daq/opt/root-6.25.01/include/TVirtualPad.h
+TAttBBox2D.h
+/home/daq/opt/root-6.25.01/include/TAttBBox2D.h
+
+/home/daq/opt/root-6.25.01/include/TQClass.h
+TQObject.h
+/home/daq/opt/root-6.25.01/include/TQObject.h
+TClass.h
+/home/daq/opt/root-6.25.01/include/TClass.h
+
+/home/daq/opt/root-6.25.01/include/TQObject.h
+TList.h
+/home/daq/opt/root-6.25.01/include/TList.h
+TString.h
+/home/daq/opt/root-6.25.01/include/TString.h
+TVirtualQConnection.h
+/home/daq/opt/root-6.25.01/include/TVirtualQConnection.h
+TQClass.h
+/home/daq/opt/root-6.25.01/include/TQClass.h
+
 /home/daq/opt/root-6.25.01/include/TSchemaHelper.h
 RtypesCore.h
 /home/daq/opt/root-6.25.01/include/RtypesCore.h
@@ -829,6 +901,14 @@ cstring
 -
 string
 -
+
+/home/daq/opt/root-6.25.01/include/TText.h
+TAttText.h
+/home/daq/opt/root-6.25.01/include/TAttText.h
+TNamed.h
+/home/daq/opt/root-6.25.01/include/TNamed.h
+TAttBBox2D.h
+/home/daq/opt/root-6.25.01/include/TAttBBox2D.h
 
 /home/daq/opt/root-6.25.01/include/TTree.h
 Compression.h
@@ -955,6 +1035,30 @@ TDataType.h
 /home/daq/opt/root-6.25.01/include/TVirtualMutex.h
 Rtypes.h
 /home/daq/opt/root-6.25.01/include/Rtypes.h
+
+/home/daq/opt/root-6.25.01/include/TVirtualPad.h
+TObject.h
+/home/daq/opt/root-6.25.01/include/TObject.h
+TAttLine.h
+/home/daq/opt/root-6.25.01/include/TAttLine.h
+TAttFill.h
+/home/daq/opt/root-6.25.01/include/TAttFill.h
+TAttPad.h
+/home/daq/opt/root-6.25.01/include/TAttPad.h
+TQObject.h
+/home/daq/opt/root-6.25.01/include/TQObject.h
+GuiTypes.h
+/home/daq/opt/root-6.25.01/include/GuiTypes.h
+TString.h
+/home/daq/opt/root-6.25.01/include/TString.h
+Buttons.h
+/home/daq/opt/root-6.25.01/include/Buttons.h
+
+/home/daq/opt/root-6.25.01/include/TVirtualQConnection.h
+TList.h
+/home/daq/opt/root-6.25.01/include/TList.h
+TInterpreter.h
+/home/daq/opt/root-6.25.01/include/TInterpreter.h
 
 /home/daq/opt/root-6.25.01/include/TVirtualRWMutex.h
 TVirtualMutex.h

@@ -40,6 +40,8 @@ add_library(treeanalib SHARED
 
 target_link_libraries(treeanalib ${ROOT_LIBRARIES})
 add_executable(treeana main.cpp)
+add_executable(treeana_cf4 main_cf4.cpp)
 
 target_link_libraries(treeana ${ROOT_LIBRARIES} treeanalib)
+target_link_libraries(treeana_cf4 ${ROOT_LIBRARIES} treeanalib)
 #target_link_libraries(treeana ${ROOT_LIBRARIES} user catcore artparam artcont catloop artridf artrdf arthist artdecoder catmc catcmd)
